@@ -1,0 +1,13 @@
+package AtmDetails;
+
+import java.io.IOException;
+
+public class main extends Options {
+
+	public static void main(String[] args) throws IOException {
+	
+		Options options=new Options();
+		options.getLogin();
+	}
+	
+}
